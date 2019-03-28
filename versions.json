@@ -11,7 +11,7 @@
                 "MinPortalVersion" : "9.0.0"
             }
         ],
-        "LoadCode": "loadPlatformScript("/Platform/CustomSpace/ResolveTask/ResolveTask.js",["Incident"],"CustomIncidentResolveTask");
+        "LoadCode": "loadPlatformScript('/Platform/CustomSpace/ResolveTask/ResolveTask.js',['Incident'],'CustomIncidentResolveTask');
 "
     },
     {
@@ -26,7 +26,7 @@
                 "MinPortalVersion" : "9.0.0"
             }
         ],
-        "LoadCode": "loadPlatformScript("/Platform/CustomSpace/ConvertIRtoSR/ConvertIRtoSR.js",["Incident"],"CustomConvertIRtoSR");
+        "LoadCode": "loadPlatformScript('/Platform/CustomSpace/ConvertIRtoSR/ConvertIRtoSR.js',['Incident'],'CustomConvertIRtoSR');
 "
     }
 ]
