@@ -10,7 +10,9 @@
                 "ExtensionVersion": "1.1.0",
                 "MinPortalVersion" : "9.0.0"
             }
-        ]
+        ],
+        "LoadCode": "loadPlatformScript("/Platform/CustomSpace/ResolveTask/ResolveTask.js",["Incident"],"CustomIncidentResolveTask");
+"
     },
     {
         "Name": "ConvertIRtoSR",
@@ -23,6 +25,8 @@
                 "ExtensionVersion": "1.1.0",
                 "MinPortalVersion" : "9.0.0"
             }
-        ]
+        ],
+        "LoadCode": "loadPlatformScript("/Platform/CustomSpace/ConvertIRtoSR/ConvertIRtoSR.js",["Incident"],"CustomConvertIRtoSR");
+"
     }
 ]
