@@ -1,6 +1,7 @@
 [
     {
-        "Name": "ResolveTask",
+        "Name": "Incident Resolve Task",
+        "AddInGuid": "22895dd7-3e40-4544-9a9a-b78497263054",
         "Versions": [
             {
                 "ExtensionVersion": "1.0.0",
@@ -10,11 +11,11 @@
                 "ExtensionVersion": "1.1.0",
                 "MinPortalVersion" : "9.0.0"
             }
-        ],
-        "LoadCode": "loadPlatformScript('/Platform/CustomSpace/ResolveTask/ResolveTask.js',['Incident'],'CustomIncidentResolveTask');"
+        ]
     },
     {
-        "Name": "ConvertIRtoSR",
+        "Name": "Convert IR to SR",
+        "AddInGuid": "22ff8576-66b6-4a9c-9636-c8c507ee4d28",
         "Versions": [
             {
                 "ExtensionVersion": "1.0.0",
@@ -24,7 +25,20 @@
                 "ExtensionVersion": "1.1.0",
                 "MinPortalVersion" : "9.0.0"
             }
-        ],
-        "LoadCode": "loadPlatformScript('/Platform/CustomSpace/ConvertIRtoSR/ConvertIRtoSR.js',['Incident'],'CustomConvertIRtoSR');"
+        ]
+    },
+    {
+        "Name": "Custom Hardware Report",
+        "AddInGuid": "55f04db0-f9e4-4e45-bec9-5c445e3ef09f",
+        "Versions": [
+            {
+                "ExtensionVersion": "1.0.0",
+                "MinPortalVersion" : "9.0.0"
+            },
+            {
+                "ExtensionVersion": "1.1.0",
+                "MinPortalVersion" : "9.0.0"
+            }
+        ]
     }
 ]
