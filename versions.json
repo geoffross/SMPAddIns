@@ -10,6 +10,14 @@
             {
                 "ExtensionVersion": "1.1.0",
                 "MinPortalVersion" : "9.0.0"
+            },
+            {
+                "ExtensionVersion": "1.2.0",
+                "MinPortalVersion" : "9.1.0"
+            },
+            {
+                "ExtensionVersion": "1.3.0",
+                "MinPortalVersion" : "9.3.0"
             }
         ]
     },
