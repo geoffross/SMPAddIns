@@ -17,7 +17,7 @@
             },
             {
                 "ExtensionVersion": "1.3.0",
-                "MinPortalVersion" : "9.5.0"
+                "MinPortalVersion" : "9.8.0"
             }
         ]
     },
